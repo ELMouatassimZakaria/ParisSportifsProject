@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BA84BB2A6E71C000FEFE36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA84BA2A6E71C000FEFE36 /* AppDelegate.swift */; };
+		04BA84BD2A6E71C000FEFE36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA84BC2A6E71C000FEFE36 /* SceneDelegate.swift */; };
+		04BA84BF2A6E71C000FEFE36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA84BE2A6E71C000FEFE36 /* ViewController.swift */; };
+		04BA84C22A6E71C000FEFE36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BA84C02A6E71C000FEFE36 /* Main.storyboard */; };
+		04BA84C42A6E71C200FEFE36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BA84C32A6E71C200FEFE36 /* Assets.xcassets */; };
+		04BA84C72A6E71C200FEFE36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BA84C52A6E71C200FEFE36 /* LaunchScreen.storyboard */; };
+		04BA84D22A6E71C200FEFE36 /* ParisSportifsProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA84D12A6E71C200FEFE36 /* ParisSportifsProjectTests.swift */; };
+		04BA84DC2A6E71C200FEFE36 /* ParisSportifsProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA84DB2A6E71C200FEFE36 /* ParisSportifsProjectUITests.swift */; };
+		04BA84DE2A6E71C200FEFE36 /* ParisSportifsProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA84DD2A6E71C200FEFE36 /* ParisSportifsProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BA84CE2A6E71C200FEFE36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BA84AF2A6E71C000FEFE36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BA84B62A6E71C000FEFE36;
+			remoteInfo = ParisSportifsProject;
+		};
+		04BA84D82A6E71C200FEFE36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BA84AF2A6E71C000FEFE36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BA84B62A6E71C000FEFE36;
+			remoteInfo = ParisSportifsProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BA84B72A6E71C000FEFE36 /* ParisSportifsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParisSportifsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BA84BA2A6E71C000FEFE36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04BA84BC2A6E71C000FEFE36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04BA84BE2A6E71C000FEFE36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04BA84C12A6E71C000FEFE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BA84C32A6E71C200FEFE36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BA84C62A6E71C200FEFE36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BA84C82A6E71C200FEFE36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BA84CD2A6E71C200FEFE36 /* ParisSportifsProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParisSportifsProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BA84D12A6E71C200FEFE36 /* ParisSportifsProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParisSportifsProjectTests.swift; sourceTree = "<group>"; };
+		04BA84D72A6E71C200FEFE36 /* ParisSportifsProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParisSportifsProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BA84DB2A6E71C200FEFE36 /* ParisSportifsProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParisSportifsProjectUITests.swift; sourceTree = "<group>"; };
+		04BA84DD2A6E71C200FEFE36 /* ParisSportifsProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParisSportifsProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BA84B42A6E71C000FEFE36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BA84CA2A6E71C200FEFE36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BA84D42A6E71C200FEFE36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BA84AE2A6E71C000FEFE36 = {
+			isa = PBXGroup;
+			children = (
+				04BA84B92A6E71C000FEFE36 /* ParisSportifsProject */,
+				04BA84D02A6E71C200FEFE36 /* ParisSportifsProjectTests */,
+				04BA84DA2A6E71C200FEFE36 /* ParisSportifsProjectUITests */,
+				04BA84B82A6E71C000FEFE36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BA84B82A6E71C000FEFE36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BA84B72A6E71C000FEFE36 /* ParisSportifsProject.app */,
+				04BA84CD2A6E71C200FEFE36 /* ParisSportifsProjectTests.xctest */,
+				04BA84D72A6E71C200FEFE36 /* ParisSportifsProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BA84B92A6E71C000FEFE36 /* ParisSportifsProject */ = {
+			isa = PBXGroup;
+			children = (
+				04BA84BA2A6E71C000FEFE36 /* AppDelegate.swift */,
+				04BA84BC2A6E71C000FEFE36 /* SceneDelegate.swift */,
+				04BA84BE2A6E71C000FEFE36 /* ViewController.swift */,
+				04BA84C02A6E71C000FEFE36 /* Main.storyboard */,
+				04BA84C32A6E71C200FEFE36 /* Assets.xcassets */,
+				04BA84C52A6E71C200FEFE36 /* LaunchScreen.storyboard */,
+				04BA84C82A6E71C200FEFE36 /* Info.plist */,
+			);
+			path = ParisSportifsProject;
+			sourceTree = "<group>";
+		};
+		04BA84D02A6E71C200FEFE36 /* ParisSportifsProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BA84D12A6E71C200FEFE36 /* ParisSportifsProjectTests.swift */,
+			);
+			path = ParisSportifsProjectTests;
+			sourceTree = "<group>";
+		};
+		04BA84DA2A6E71C200FEFE36 /* ParisSportifsProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BA84DB2A6E71C200FEFE36 /* ParisSportifsProjectUITests.swift */,
+				04BA84DD2A6E71C200FEFE36 /* ParisSportifsProjectUITestsLaunchTests.swift */,
+			);
+			path = ParisSportifsProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BA84B62A6E71C000FEFE36 /* ParisSportifsProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BA84E12A6E71C200FEFE36 /* Build configuration list for PBXNativeTarget "ParisSportifsProject" */;
+			buildPhases = (
+				04BA84B32A6E71C000FEFE36 /* Sources */,
+				04BA84B42A6E71C000FEFE36 /* Frameworks */,
+				04BA84B52A6E71C000FEFE36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParisSportifsProject;
+			productName = ParisSportifsProject;
+			productReference = 04BA84B72A6E71C000FEFE36 /* ParisSportifsProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BA84CC2A6E71C200FEFE36 /* ParisSportifsProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BA84E42A6E71C200FEFE36 /* Build configuration list for PBXNativeTarget "ParisSportifsProjectTests" */;
+			buildPhases = (
+				04BA84C92A6E71C200FEFE36 /* Sources */,
+				04BA84CA2A6E71C200FEFE36 /* Frameworks */,
+				04BA84CB2A6E71C200FEFE36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BA84CF2A6E71C200FEFE36 /* PBXTargetDependency */,
+			);
+			name = ParisSportifsProjectTests;
+			productName = ParisSportifsProjectTests;
+			productReference = 04BA84CD2A6E71C200FEFE36 /* ParisSportifsProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BA84D62A6E71C200FEFE36 /* ParisSportifsProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BA84E72A6E71C200FEFE36 /* Build configuration list for PBXNativeTarget "ParisSportifsProjectUITests" */;
+			buildPhases = (
+				04BA84D32A6E71C200FEFE36 /* Sources */,
+				04BA84D42A6E71C200FEFE36 /* Frameworks */,
+				04BA84D52A6E71C200FEFE36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BA84D92A6E71C200FEFE36 /* PBXTargetDependency */,
+			);
+			name = ParisSportifsProjectUITests;
+			productName = ParisSportifsProjectUITests;
+			productReference = 04BA84D72A6E71C200FEFE36 /* ParisSportifsProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BA84AF2A6E71C000FEFE36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					04BA84B62A6E71C000FEFE36 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04BA84CC2A6E71C200FEFE36 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04BA84B62A6E71C000FEFE36;
+					};
+					04BA84D62A6E71C200FEFE36 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 04BA84B62A6E71C000FEFE36;
+					};
+				};
+			};
+			buildConfigurationList = 04BA84B22A6E71C000FEFE36 /* Build configuration list for PBXProject "ParisSportifsProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BA84AE2A6E71C000FEFE36;
+			productRefGroup = 04BA84B82A6E71C000FEFE36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BA84B62A6E71C000FEFE36 /* ParisSportifsProject */,
+				04BA84CC2A6E71C200FEFE36 /* ParisSportifsProjectTests */,
+				04BA84D62A6E71C200FEFE36 /* ParisSportifsProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BA84B52A6E71C000FEFE36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BA84C72A6E71C200FEFE36 /* LaunchScreen.storyboard in Resources */,
+				04BA84C42A6E71C200FEFE36 /* Assets.xcassets in Resources */,
+				04BA84C22A6E71C000FEFE36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BA84CB2A6E71C200FEFE36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BA84D52A6E71C200FEFE36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BA84B32A6E71C000FEFE36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BA84BF2A6E71C000FEFE36 /* ViewController.swift in Sources */,
+				04BA84BB2A6E71C000FEFE36 /* AppDelegate.swift in Sources */,
+				04BA84BD2A6E71C000FEFE36 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BA84C92A6E71C200FEFE36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BA84D22A6E71C200FEFE36 /* ParisSportifsProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BA84D32A6E71C200FEFE36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BA84DE2A6E71C200FEFE36 /* ParisSportifsProjectUITestsLaunchTests.swift in Sources */,
+				04BA84DC2A6E71C200FEFE36 /* ParisSportifsProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BA84CF2A6E71C200FEFE36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BA84B62A6E71C000FEFE36 /* ParisSportifsProject */;
+			targetProxy = 04BA84CE2A6E71C200FEFE36 /* PBXContainerItemProxy */;
+		};
+		04BA84D92A6E71C200FEFE36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BA84B62A6E71C000FEFE36 /* ParisSportifsProject */;
+			targetProxy = 04BA84D82A6E71C200FEFE36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BA84C02A6E71C000FEFE36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BA84C12A6E71C000FEFE36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BA84C52A6E71C200FEFE36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BA84C62A6E71C200FEFE36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BA84DF2A6E71C200FEFE36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04BA84E02A6E71C200FEFE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BA84E22A6E71C200FEFE36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParisSportifsProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parisSportifs.ParisSportifsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04BA84E32A6E71C200FEFE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParisSportifsProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parisSportifs.ParisSportifsProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04BA84E52A6E71C200FEFE36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parisSportifs.ParisSportifsProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParisSportifsProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParisSportifsProject";
+			};
+			name = Debug;
+		};
+		04BA84E62A6E71C200FEFE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parisSportifs.ParisSportifsProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParisSportifsProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParisSportifsProject";
+			};
+			name = Release;
+		};
+		04BA84E82A6E71C200FEFE36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parisSportifs.ParisSportifsProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParisSportifsProject;
+			};
+			name = Debug;
+		};
+		04BA84E92A6E71C200FEFE36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parisSportifs.ParisSportifsProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParisSportifsProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BA84B22A6E71C000FEFE36 /* Build configuration list for PBXProject "ParisSportifsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BA84DF2A6E71C200FEFE36 /* Debug */,
+				04BA84E02A6E71C200FEFE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BA84E12A6E71C200FEFE36 /* Build configuration list for PBXNativeTarget "ParisSportifsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BA84E22A6E71C200FEFE36 /* Debug */,
+				04BA84E32A6E71C200FEFE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BA84E42A6E71C200FEFE36 /* Build configuration list for PBXNativeTarget "ParisSportifsProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BA84E52A6E71C200FEFE36 /* Debug */,
+				04BA84E62A6E71C200FEFE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BA84E72A6E71C200FEFE36 /* Build configuration list for PBXNativeTarget "ParisSportifsProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BA84E82A6E71C200FEFE36 /* Debug */,
+				04BA84E92A6E71C200FEFE36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BA84AF2A6E71C000FEFE36 /* Project object */;
+}
