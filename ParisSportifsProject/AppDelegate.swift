@@ -2,15 +2,13 @@
 //  AppDelegate.swift
 //  ParisSportifsProject
 //
-//  Created by Zakaria El Moutassim on 24/07/2023.
+//  Created by Zakaria El Mouatassim on 24/07/2023.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
