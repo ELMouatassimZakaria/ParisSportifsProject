@@ -1,8 +1,7 @@
 # ParisSportifsProject
 Test Technique pour FDJ
 
-Dévelopement une application, à partir de  l'API TheSportsDB.
-Le projet est développé avec le pattern MVVM  avec le langage : Swift
+Dévelopement une application pour chercher une league et l'affichage de la liste des équipes du championnat en utilisant l'API TheSportsDB.
 
 # Archi & Libraries
 - Alamofire pour les appels réseau HTTP
